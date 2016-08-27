@@ -1,0 +1,27 @@
+#Jon_Snow {
+	background-color: black;
+	height: 100px;
+	width: 100px;
+}
+
+#Khaleesi {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+
+#The_Mountain {
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+}
+
+#The_Night_King {
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+#characters {
+	display: inline-flex;
+}
