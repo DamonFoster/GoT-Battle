@@ -1,3 +1,20 @@
+body {
+	background: url(../images/ironthrone.jpg) no-repeat center center fixed;
+	margin-left: 50px;
+}
+
+#yourHero {
+	color: white;
+	font-family: Papyrus, fantasy;
+	font-size: 200%;
+}
+
+#yourEnemy {
+	color: red;
+	font-family: Papyrus, fantasy;
+	font-size: 200%;
+}
+
 #Jon_Snow {
 	background-color: black;
 	height: 100px;
@@ -24,4 +41,36 @@
 
 #characters {
 	display: inline-flex;
+}
+
+#title {
+	text-align: center;
+}
+
+.character-image {
+	height: 150px;
+	width: 150px;
+}
+
+.character-health {
+	color: white;
+}
+
+.character-name {
+	color: white;
+}
+
+#attack {
+	margin-bottom: 15px;
+}
+
+#battleStats {
+	background-color: black;
+	width: 600px;
+	height: 65px;
+	margin-top: 10px;
+	color: white;
+	font-family: Papyrus, fantasy;
+	font-size: 130%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
